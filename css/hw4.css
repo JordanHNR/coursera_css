@@ -1,0 +1,128 @@
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    font-weight: lighter;
+    line-height: 1.5;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th{
+    background: linear-gradient(to top, #9FC088, #CAC082);
+    border-radius: 25px 25px 0 0;
+    -webkit-border-radius: 25px 25px 0 0;
+    -moz-border-radius: 25px 25px 0 0;
+    border-bottom: 5px solid #614124;
+    color: #614124;
+    text-transform: uppercase; /* Additional property */
+}
+
+/* The two other columns' text is centered line 8 of this file.*/
+td:nth-child(1) {  
+    text-align: left;
+}
+
+td{
+    background-color:#614124;
+    padding: 0.25% 2% 0.25% 2%;
+    color: #E8C07D;
+    border-radius: 2px;
+    text-shadow: 1px 2px 0 #000000;
+}
+
+tr {
+    opacity: 0.7;
+}
+
+/* Change opacity when hovering, except for table heading */
+tr:not(:first-child):hover{
+    opacity: 1.0;
+}
+
+/* Below CSS is the same as hw2.css. Ignore it. */
+body{
+    margin: 0px 20px 10px 20px;
+    padding: 10px;
+    background-color: #E8C07D;
+}
+
+header{
+    background-color: #9FC088;
+    background-image: url("../images/flywheel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2px 0px 50px 0px;
+}
+
+nav a{
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10%;
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+    opacity: 75%;
+    background-color: #E8C07D;
+    color: #614124;
+}
+
+.active{
+    opacity: 100%;
+    border-style: dotted;
+    border-color: #906055;
+}
+
+nav a:hover{
+    opacity: 100%;
+    border-style: dotted;
+    border-color: #906055;    
+}
+
+nav{
+    text-align: center;
+    margin-top: 150px;
+}
+
+main{
+    margin-top: 5px;
+}
+
+.left{
+    display: inline-block;
+    float: left;
+    width: 15%;
+    background-color: #9FC088;
+}
+
+.right{
+    display: inline-block;
+    float: left;
+    width: 75%;
+    margin-left: 10px;
+}
+
+aside img{
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin: 5% auto;
+    /* padding-bottom: 2%; */
+    border: 2px;
+    border-color: #614124;
+    border-style: dashed;
+}
+
+h1{
+    color: #614124;
+    font-size: 300%;
+    text-align: center;
+}
+
+h2{
+    color: #614124;
+}
+
